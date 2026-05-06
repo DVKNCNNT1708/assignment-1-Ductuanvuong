@@ -1,0 +1,297 @@
+==> Pulling registry:2
+2: Pulling from library/registry
+95459497489f: Pulling fs layer
+bd39ca3613a6: Pulling fs layer
+ddcb6d98388d: Pulling fs layer
+8bbaad1488a8: Pulling fs layer
+9a6b3f59ebc2: Pulling fs layer
+ddcb6d98388d: Download complete
+bd39ca3613a6: Download complete
+8bbaad1488a8: Download complete
+95459497489f: Download complete
+9a6b3f59ebc2: Download complete
+Digest: sha256:a3d8aaa63ed8681a604f1dea0aa03f100d5895b6a58ace528858a7b332415373
+Status: Downloaded newer image for registry:2
+docker.io/library/registry:2
+[PASS] registry:2
+
+==> Pulling python:3.11-slim
+3.11-slim: Pulling from library/python
+61e75fb678e2: Pulling fs layer
+e4fb5f1cd4d4: Pulling fs layer
+6ecad6f632e3: Pulling fs layer
+7c9a60876db1: Pulling fs layer
+61e75fb678e2: Download complete
+6ecad6f632e3: Download complete
+7c9a60876db1: Download complete
+e4fb5f1cd4d4: Download complete
+Digest: sha256:6d85378d88a19cd4d76079817532d62232be95757cb45945a99fec8e8084b9c2
+Status: Downloaded newer image for python:3.11-slim
+docker.io/library/python:3.11-slim
+[PASS] python:3.11-slim
+
+==> Pulling node:20-alpine
+20-alpine: Pulling from library/node
+bda5d7ef971f: Pulling fs layer
+d17f077ada11: Pulling fs layer
+cd322d0ddd02: Pulling fs layer
+13e45b12880f: Pulling fs layer
+cd322d0ddd02: Download complete
+13e45b12880f: Download complete
+d17f077ada11: Download complete
+bda5d7ef971f: Download complete
+Digest: sha256:fb4cd12c85ee03686f6af5362a0b0d56d50c58a04632e6c0fb8363f609372293
+Status: Downloaded newer image for node:20-alpine
+docker.io/library/node:20-alpine
+[PASS] node:20-alpine
+
+==> Pulling postgres:15-alpine
+15-alpine: Pulling from library/postgres
+389a7cfae7de: Pulling fs layer
+a8d9e63c5c24: Pulling fs layer
+8c584142954e: Pulling fs layer
+6d55f1d2e584: Pulling fs layer
+97afa9fbda77: Pulling fs layer
+53fffb0cb0e4: Pulling fs layer
+bad8df76fc80: Pulling fs layer
+68a85e446412: Pulling fs layer
+3a7160521737: Pulling fs layer
+4377d5b6adc1: Pulling fs layer
+6d55f1d2e584: Download complete
+389a7cfae7de: Download complete
+8c584142954e: Download complete
+bad8df76fc80: Download complete
+4377d5b6adc1: Download complete
+53fffb0cb0e4: Download complete
+68a85e446412: Download complete
+97afa9fbda77: Download complete
+a8d9e63c5c24: Download complete
+3a7160521737: Download complete
+Digest: sha256:09e4f20b14ddb3dfe3a0c825b206032aaf8f28300ba2070c0b60fc1c10c6abc7
+Status: Downloaded newer image for postgres:15-alpine
+docker.io/library/postgres:15-alpine
+[PASS] postgres:15-alpine
+
+==> Pulling rabbitmq:3-management
+3-management: Pulling from library/rabbitmq
+b0dce9f9a25e: Pulling fs layer
+2b6c30257d7d: Pulling fs layer
+97dd3f0ce510: Pulling fs layer
+c64be2c4c916: Pulling fs layer
+4a669bc3e1dd: Pulling fs layer
+dee3d7bda3a2: Pulling fs layer
+e93d97eeeeb8: Pulling fs layer
+908453a3b3f1: Pulling fs layer
+4d707a369044: Pulling fs layer
+ba58438a193e: Pulling fs layer
+dee3d7bda3a2: Download complete
+2b6c30257d7d: Download complete
+4d707a369044: Download complete
+ba58438a193e: Download complete
+c64be2c4c916: Download complete
+908453a3b3f1: Download complete
+e93d97eeeeb8: Download complete
+b0dce9f9a25e: Download complete
+4a669bc3e1dd: Download complete
+97dd3f0ce510: Download complete
+Digest: sha256:e582c0bc7766f3342496d8485efb5a1df782b5ce3886ad017e2eaae442311f69
+Status: Downloaded newer image for rabbitmq:3-management
+docker.io/library/rabbitmq:3-management
+[PASS] rabbitmq:3-management
+
+==> Pulling eclipse-mosquitto:2
+2: Pulling from library/eclipse-mosquitto
+fdc415f87e4b: Pulling fs layer
+98e496fa2207: Pulling fs layer
+98e496fa2207: Download complete
+fdc415f87e4b: Download complete
+Digest: sha256:a908c65cc8e67ec9d292ef27c2c0360dbaaee7eb1b935cdd194e67697f15dea1
+Status: Downloaded newer image for eclipse-mosquitto:2
+docker.io/library/eclipse-mosquitto:2
+[PASS] eclipse-mosquitto:2
+
+==> Pulling nginx:alpine
+alpine: Pulling from library/nginx
+a96b658a00fe: Pulling fs layer
+662c8d6f6620: Pulling fs layer
+910c2a6cad6d: Pulling fs layer
+10cbc192f783: Pulling fs layer
+a89d14ef5abe: Pulling fs layer
+634f1d1ce0f7: Pulling fs layer
+83fbf849ee89: Pulling fs layer
+a96b658a00fe: Download complete
+634f1d1ce0f7: Download complete
+a89d14ef5abe: Download complete
+83fbf849ee89: Download complete
+10cbc192f783: Download complete
+910c2a6cad6d: Download complete
+662c8d6f6620: Download complete
+Digest: sha256:5616878291a2eed594aee8db4dade5878cf7edcb475e59193904b198d9b830de
+Status: Downloaded newer image for nginx:alpine
+docker.io/library/nginx:alpine
+[PASS] nginx:alpine
+
+==> Pulling traefik:v3.1
+v3.1: Pulling from library/traefik
+237daf9dbd9e: Pulling fs layer
+66d423ae9501: Pulling fs layer
+9986a736f7d3: Pulling fs layer
+56489d36cf52: Pulling fs layer
+56489d36cf52: Download complete
+237daf9dbd9e: Download complete
+9986a736f7d3: Download complete
+66d423ae9501: Download complete
+Digest: sha256:74d72c7a1345984f186bddbabcc462b2128d0d8054177dc84afaeac4db1f0f56
+Status: Downloaded newer image for traefik:v3.1
+docker.io/library/traefik:v3.1
+[PASS] traefik:v3.1
+
+==> Pulling prom/prometheus:v2.54.1
+v2.54.1: Pulling from prom/prometheus
+d2f8aae8d80e: Pulling fs layer
+1afe4a0d7329: Pulling fs layer
+420957d23add: Pulling fs layer
+b168ffa8f33a: Pulling fs layer
+09a7ac33c11a: Pulling fs layer
+bd55ccfa5aad: Pulling fs layer
+a63cf2b766b6: Pulling fs layer
+6cff268ec4d7: Pulling fs layer
+6179424432d2: Pulling fs layer
+1fd5d47e09da: Pulling fs layer
+8a289f97ad1d: Pulling fs layer
+6ce8b87a9754: Pulling fs layer
+1fd5d47e09da: Download complete
+09a7ac33c11a: Download complete
+8a289f97ad1d: Download complete
+a63cf2b766b6: Download complete
+d2f8aae8d80e: Download complete
+1afe4a0d7329: Download complete
+420957d23add: Download complete
+6179424432d2: Download complete
+bd55ccfa5aad: Download complete
+6ce8b87a9754: Download complete
+6cff268ec4d7: Download complete
+b168ffa8f33a: Download complete
+Digest: sha256:f6639335d34a77d9d9db382b92eeb7fc00934be8eae81dbc03b31cfe90411a94
+Status: Downloaded newer image for prom/prometheus:v2.54.1
+docker.io/prom/prometheus:v2.54.1
+[PASS] prom/prometheus:v2.54.1
+
+==> Pulling grafana/grafana:11.2.0
+11.2.0: Pulling from grafana/grafana
+f257bec43f81: Pulling fs layer
+8ff0366d982d: Pulling fs layer
+1e825da9c63a: Pulling fs layer
+bca4290a9639: Pulling fs layer
+35ffea0c044a: Pulling fs layer
+ffca16271da6: Pulling fs layer
+fbbaca673c19: Pulling fs layer
+73d7d01a1d2c: Pulling fs layer
+27a3c8ebdfbf: Pulling fs layer
+15e31fbe4904: Pulling fs layer
+73d7d01a1d2c: Download complete
+35ffea0c044a: Download complete
+f257bec43f81: Download complete
+ffca16271da6: Download complete
+27a3c8ebdfbf: Download complete
+15e31fbe4904: Download complete
+fbbaca673c19: Download complete
+bca4290a9639: Download complete
+8ff0366d982d: Download complete
+1e825da9c63a: Download complete
+Digest: sha256:408afb9726de5122b00a2576763a8a57a3c86d5b0eff5305bc994ceb3eb96c3f
+Status: Downloaded newer image for grafana/grafana:11.2.0
+docker.io/grafana/grafana:11.2.0
+[PASS] grafana/grafana:11.2.0
+
+==> Pulling redis:7-alpine
+7-alpine: Pulling from library/redis
+49234193946b: Pulling fs layer
+9f7a9cdef285: Pulling fs layer
+2dd7199cff98: Pulling fs layer
+17d8514eecf9: Pulling fs layer
+e445c3995238: Pulling fs layer
+d59c425dfddd: Pulling fs layer
+4f4fb700ef54: Pulling fs layer
+49234193946b: Download complete
+4f4fb700ef54: Download complete
+9f7a9cdef285: Download complete
+d59c425dfddd: Download complete
+e445c3995238: Download complete
+2dd7199cff98: Download complete
+17d8514eecf9: Download complete
+Digest: sha256:286bd4264adb303147270bb2d735352497e950f7b73b2ca42364d63d7daf61ee
+Status: Downloaded newer image for redis:7-alpine
+docker.io/library/redis:7-alpine
+[PASS] redis:7-alpine
+
+==> Pulling swaggerapi/swagger-ui:v5.17.14
+v5.17.14: Pulling from swaggerapi/swagger-ui
+0f47c41872d5: Pulling fs layer
+1b5a5854bd5a: Pulling fs layer
+32b20be2efbb: Pulling fs layer
+49edc660885a: Pulling fs layer
+06e8a6126530: Pulling fs layer
+71b2358004a3: Pulling fs layer
+7e67f79922c2: Pulling fs layer
+a65299eb2ace: Pulling fs layer
+3ea1fa5d304d: Pulling fs layer
+928989aaab02: Pulling fs layer
+2ffdb130edbd: Pulling fs layer
+590537197bb6: Pulling fs layer
+0d78e9913865: Pulling fs layer
+0f47c41872d5: Download complete
+0d78e9913865: Download complete
+1b5a5854bd5a: Download complete
+7e67f79922c2: Download complete
+3ea1fa5d304d: Download complete
+71b2358004a3: Download complete
+49edc660885a: Download complete
+590537197bb6: Download complete
+a65299eb2ace: Download complete
+32b20be2efbb: Download complete
+928989aaab02: Download complete
+06e8a6126530: Download complete
+2ffdb130edbd: Download complete
+Digest: sha256:cb968cc70260c6027b44f227d054a0f12381736e9ab628ef6b6070a19fdf2172
+Status: Downloaded newer image for swaggerapi/swagger-ui:v5.17.14
+docker.io/swaggerapi/swagger-ui:v5.17.14
+[PASS] swaggerapi/swagger-ui:v5.17.14
+
+==> Pulling hello-world:latest
+latest: Pulling from library/hello-world
+58dee6a49ef1: Pulling fs layer
+58dee6a49ef1: Download complete
+Digest: sha256:f9078146db2e05e794366b1bfe584a14ea6317f44027d10ef7dad65279026885
+Status: Downloaded newer image for hello-world:latest
+docker.io/library/hello-world:latest
+[PASS] hello-world:latest
+
+==> Pulling ultralytics/ultralytics:latest-cpu
+latest-cpu: Pulling from ultralytics/ultralytics
+8bc886485b53: Pulling fs layer
+3bc3f7229179: Pulling fs layer
+c58b365c3bcb: Pulling fs layer
+42dacf6a4601: Pulling fs layer
+bc0965b23a04: Pulling fs layer
+a602f3c7f555: Pulling fs layer
+7341fe19f2fd: Pulling fs layer
+26665ef3a74d: Pulling fs layer
+d418a97a96fd: Pulling fs layer
+79455aa775ec: Pulling fs layer
+e70e97c8412f: Pulling fs layer
+a602f3c7f555: Download complete
+7341fe19f2fd: Download complete
+42dacf6a4601: Download complete
+c58b365c3bcb: Download complete
+d418a97a96fd: Download complete
+3bc3f7229179: Download complete
+e70e97c8412f: Download complete
+bc0965b23a04: Download complete
+26665ef3a74d: Download complete
+8bc886485b53: Download complete
+79455aa775ec: Download complete
+failed to extract layer sha256:89bde446615adfe7a1fe6f74daaf17c54270a59113b145e8b80eb0fded6ca3c8: write /var/lib/desktop-containerd/daemon/io.containerd.snapshotter.v1.overlayfs/snapshots/311/fs/usr/local/lib/python3.11/site-packages/torch/test/op_registration_test: input/output error: unknown
+[PASS] ultralytics/ultralytics:latest-cpu
+
+==> Current images

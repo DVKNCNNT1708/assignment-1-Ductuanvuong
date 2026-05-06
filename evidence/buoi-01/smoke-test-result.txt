@@ -1,0 +1,193 @@
+== Tool checks ==
+[PASS] git installed
+[PASS] docker installed
+[PASS] node installed
+[PASS] python installed
+\n== Docker checks ==
+Docker version 27.3.1, build ce12230
+[PASS] docker CLI
+Docker Compose version v2.30.3-desktop.1
+[PASS] docker compose v2
+Client:
+ Version:    27.3.1
+ Context:    desktop-linux
+ Debug Mode: false
+ Plugins:
+  ai: Ask Gordon - Docker Agent (Docker Inc.)
+    Version:  v0.1.0
+    Path:     /Users/vuongductuan/.docker/cli-plugins/docker-ai
+  buildx: Docker Buildx (Docker Inc.)
+    Version:  v0.18.0-desktop.2
+    Path:     /Users/vuongductuan/.docker/cli-plugins/docker-buildx
+  compose: Docker Compose (Docker Inc.)
+    Version:  v2.30.3-desktop.1
+    Path:     /Users/vuongductuan/.docker/cli-plugins/docker-compose
+  debug: Get a shell into any image or container (Docker Inc.)
+    Version:  0.0.37
+    Path:     /Users/vuongductuan/.docker/cli-plugins/docker-debug
+  desktop: Docker Desktop commands (Alpha) (Docker Inc.)
+    Version:  v0.0.15
+    Path:     /Users/vuongductuan/.docker/cli-plugins/docker-desktop
+  dev: Docker Dev Environments (Docker Inc.)
+    Version:  v0.1.2
+    Path:     /Users/vuongductuan/.docker/cli-plugins/docker-dev
+  extension: Manages Docker extensions (Docker Inc.)
+    Version:  v0.2.27
+    Path:     /Users/vuongductuan/.docker/cli-plugins/docker-extension
+  feedback: Provide feedback, right in your terminal! (Docker Inc.)
+    Version:  v1.0.5
+    Path:     /Users/vuongductuan/.docker/cli-plugins/docker-feedback
+  init: Creates Docker-related starter files for your project (Docker Inc.)
+    Version:  v1.4.0
+    Path:     /Users/vuongductuan/.docker/cli-plugins/docker-init
+  sbom: View the packaged-based Software Bill Of Materials (SBOM) for an image (Anchore Inc.)
+    Version:  0.6.0
+    Path:     /Users/vuongductuan/.docker/cli-plugins/docker-sbom
+  scout: Docker Scout (Docker Inc.)
+    Version:  v1.15.0
+    Path:     /Users/vuongductuan/.docker/cli-plugins/docker-scout
+
+Server:
+ERROR: Cannot connect to the Docker daemon at unix:///Users/vuongductuan/.docker/run/docker.sock. Is the docker daemon running?
+errors pretty printing info
+[FAIL] docker daemon ready
+docker: Cannot connect to the Docker daemon at unix:///Users/vuongductuan/.docker/run/docker.sock. Is the docker daemon running?.
+See 'docker run --help'.
+[FAIL] hello-world container
+\n== Image checks ==
+[WARN] missing image registry:2; run scripts/pull_all.sh
+[WARN] missing image python:3.11-slim; run scripts/pull_all.sh
+[WARN] missing image node:20-alpine; run scripts/pull_all.sh
+[WARN] missing image postgres:15-alpine; run scripts/pull_all.sh
+[WARN] missing image rabbitmq:3-management; run scripts/pull_all.sh
+[WARN] missing image eclipse-mosquitto:2; run scripts/pull_all.sh
+[WARN] missing image nginx:alpine; run scripts/pull_all.sh
+[WARN] missing image traefik:v3.1; run scripts/pull_all.sh
+[WARN] missing image prom/prometheus:v2.54.1; run scripts/pull_all.sh
+[WARN] missing image grafana/grafana:11.2.0; run scripts/pull_all.sh
+[WARN] missing image redis:7-alpine; run scripts/pull_all.sh
+[WARN] missing image swaggerapi/swagger-ui:v5.17.14; run scripts/pull_all.sh
+[WARN] missing image hello-world:latest; run scripts/pull_all.sh
+[WARN] missing image ultralytics/ultralytics:latest-cpu; run scripts/pull_all.sh
+\n== Ultralytics check ==
+[WARN] skip ultralytics check because image is missing
+\n== Compose mini-stack check ==
+Cannot connect to the Docker daemon at unix:///Users/vuongductuan/.docker/run/docker.sock. Is the docker daemon running?
+[WARN] compose mini-stack could not start; maybe ports 8081/5000 are in use
+\nALL CHECKS FINISHED. Read evidence/buoi-01/smoke-test-result.txt for details.
+== Tool checks ==
+[PASS] git installed
+[PASS] docker installed
+[PASS] node installed
+[PASS] python installed
+\n== Docker checks ==
+Docker version 27.3.1, build ce12230
+[PASS] docker CLI
+Docker Compose version v2.30.3-desktop.1
+[PASS] docker compose v2
+Client:
+ Version:    27.3.1
+ Context:    desktop-linux
+ Debug Mode: true
+ Plugins:
+  ai: Ask Gordon - Docker Agent (Docker Inc.)
+    Version:  v0.1.0
+    Path:     /Users/vuongductuan/.docker/cli-plugins/docker-ai
+  buildx: Docker Buildx (Docker Inc.)
+    Version:  v0.18.0-desktop.2
+    Path:     /Users/vuongductuan/.docker/cli-plugins/docker-buildx
+  compose: Docker Compose (Docker Inc.)
+    Version:  v2.30.3-desktop.1
+    Path:     /Users/vuongductuan/.docker/cli-plugins/docker-compose
+  debug: Get a shell into any image or container (Docker Inc.)
+    Version:  0.0.37
+    Path:     /Users/vuongductuan/.docker/cli-plugins/docker-debug
+  desktop: Docker Desktop commands (Alpha) (Docker Inc.)
+    Version:  v0.0.15
+    Path:     /Users/vuongductuan/.docker/cli-plugins/docker-desktop
+  dev: Docker Dev Environments (Docker Inc.)
+    Version:  v0.1.2
+    Path:     /Users/vuongductuan/.docker/cli-plugins/docker-dev
+  extension: Manages Docker extensions (Docker Inc.)
+    Version:  v0.2.27
+    Path:     /Users/vuongductuan/.docker/cli-plugins/docker-extension
+  feedback: Provide feedback, right in your terminal! (Docker Inc.)
+    Version:  v1.0.5
+    Path:     /Users/vuongductuan/.docker/cli-plugins/docker-feedback
+  init: Creates Docker-related starter files for your project (Docker Inc.)
+    Version:  v1.4.0
+    Path:     /Users/vuongductuan/.docker/cli-plugins/docker-init
+  sbom: View the packaged-based Software Bill Of Materials (SBOM) for an image (Anchore Inc.)
+    Version:  0.6.0
+    Path:     /Users/vuongductuan/.docker/cli-plugins/docker-sbom
+  scout: Docker Scout (Docker Inc.)
+    Version:  v1.15.0
+    Path:     /Users/vuongductuan/.docker/cli-plugins/docker-scout
+
+Server:
+ Containers: 7
+  Running: 3
+  Paused: 0
+  Stopped: 4
+ Images: 26
+ Server Version: 27.3.1
+ Storage Driver: overlayfs
+  driver-type: io.containerd.snapshotter.v1
+ Logging Driver: json-file
+ Cgroup Driver: cgroupfs
+ Cgroup Version: 2
+ Plugins:
+  Volume: local
+  Network: bridge host ipvlan macvlan null overlay
+  Log: awslogs fluentd gcplogs gelf journald json-file local splunk syslog
+ Swarm: inactive
+ Runtimes: io.containerd.runc.v2 runc
+ Default Runtime: runc
+ Init Binary: docker-init
+ containerd version: 472731909fa34bd7bc9c087e4c27943f9835f111
+ runc version: v1.1.13-0-g58aa920
+ init version: de40ad0
+ Security Options:
+  seccomp
+   Profile: unconfined
+  cgroupns
+ Kernel Version: 6.10.14-linuxkit
+ Operating System: Docker Desktop
+ OSType: linux
+ Architecture: aarch64
+ CPUs: 8
+ Total Memory: 7.654GiB
+ Name: docker-desktop
+ ID: 75ed8748-1f3c-4e19-8cc3-7b09bf3f570e
+ Docker Root Dir: /var/lib/docker
+ Debug Mode: false
+  File Descriptors: 67
+  Goroutines: 96
+  System Time: 2026-05-06T12:38:29.055867512Z
+  EventsListeners: 15
+ HTTP Proxy: http.docker.internal:3128
+ HTTPS Proxy: http.docker.internal:3128
+ No Proxy: hubproxy.docker.internal
+ Labels:
+  com.docker.desktop.address=unix:///Users/vuongductuan/Library/Containers/com.docker.docker/Data/docker-cli.sock
+ Experimental: false
+ Insecure Registries:
+  hubproxy.docker.internal:5555
+  127.0.0.0/8
+ Live Restore Enabled: false
+
+WARNING: daemon is not using the default seccomp profile
+[PASS] docker daemon ready
+docker: Error response from daemon: rpc error: code = Unknown desc = blob sha256:f9078146db2e05e794366b1bfe584a14ea6317f44027d10ef7dad65279026885 expected at /var/lib/desktop-containerd/daemon/io.containerd.content.v1.content/blobs/sha256/f9078146db2e05e794366b1bfe584a14ea6317f44027d10ef7dad65279026885: open /var/lib/desktop-containerd/daemon/io.containerd.content.v1.content/blobs/sha256/f9078146db2e05e794366b1bfe584a14ea6317f44027d10ef7dad65279026885: input/output error.
+See 'docker run --help'.
+[FAIL] hello-world container
+\n== Image checks ==
+[WARN] missing image registry:2; run scripts/pull_all.sh
+[WARN] missing image python:3.11-slim; run scripts/pull_all.sh
+[WARN] missing image node:20-alpine; run scripts/pull_all.sh
+[WARN] missing image postgres:15-alpine; run scripts/pull_all.sh
+[WARN] missing image rabbitmq:3-management; run scripts/pull_all.sh
+[WARN] missing image eclipse-mosquitto:2; run scripts/pull_all.sh
+[WARN] missing image nginx:alpine; run scripts/pull_all.sh
+[WARN] missing image traefik:v3.1; run scripts/pull_all.sh
+\n== Ultralytics check ==
