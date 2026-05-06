@@ -89,14 +89,14 @@ if docker compose -f compose/docker-compose.smoke.yml up -d >> "$LOG" 2>&1; then
   else
     warn "nginx not reachable on localhost:8081"
   fi
-  if curl -fsS http://localhost:5000/v2/ >/dev/null 2>&1; then
-    pass "local registry reachable on localhost:5000"
+  if curl -fsS http://localhost:5001/v2/ >/dev/null 2>&1; then
+    pass "local registry reachable on localhost:5001"
   else
-    warn "local registry not reachable on localhost:5000"
+    warn "local registry not reachable on localhost:5001"
   fi
   docker compose -f compose/docker-compose.smoke.yml down >> "$LOG" 2>&1 || true
 else
-  warn "compose mini-stack could not start; maybe ports 8081/5000 are in use"
+  warn "compose mini-stack could not start; maybe ports 8081/5001 are in use"
 fi
 
 echo "\nALL CHECKS FINISHED. Read $LOG for details." | tee -a "$LOG"

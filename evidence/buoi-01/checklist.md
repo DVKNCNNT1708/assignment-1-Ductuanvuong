@@ -14,10 +14,10 @@
 
 ## Docker
 
-- [ ] `docker run --rm hello-world` chạy thành công.
+- [x] `docker run --rm hello-world` chạy thành công.
 - [x] Đã chạy `scripts/pull_all` để pull image chuẩn.
 - [x] Đã chạy `scripts/smoke_test`.
-- [ ] Mini-stack Docker Compose chạy được.
+- [x] Mini-stack Docker Compose chạy được.
 
 ## GitHub
 

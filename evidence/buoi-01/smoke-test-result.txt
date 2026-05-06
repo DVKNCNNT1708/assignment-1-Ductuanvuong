@@ -11,83 +11,6 @@ Docker Compose version v2.30.3-desktop.1
 Client:
  Version:    27.3.1
  Context:    desktop-linux
- Debug Mode: false
- Plugins:
-  ai: Ask Gordon - Docker Agent (Docker Inc.)
-    Version:  v0.1.0
-    Path:     /Users/vuongductuan/.docker/cli-plugins/docker-ai
-  buildx: Docker Buildx (Docker Inc.)
-    Version:  v0.18.0-desktop.2
-    Path:     /Users/vuongductuan/.docker/cli-plugins/docker-buildx
-  compose: Docker Compose (Docker Inc.)
-    Version:  v2.30.3-desktop.1
-    Path:     /Users/vuongductuan/.docker/cli-plugins/docker-compose
-  debug: Get a shell into any image or container (Docker Inc.)
-    Version:  0.0.37
-    Path:     /Users/vuongductuan/.docker/cli-plugins/docker-debug
-  desktop: Docker Desktop commands (Alpha) (Docker Inc.)
-    Version:  v0.0.15
-    Path:     /Users/vuongductuan/.docker/cli-plugins/docker-desktop
-  dev: Docker Dev Environments (Docker Inc.)
-    Version:  v0.1.2
-    Path:     /Users/vuongductuan/.docker/cli-plugins/docker-dev
-  extension: Manages Docker extensions (Docker Inc.)
-    Version:  v0.2.27
-    Path:     /Users/vuongductuan/.docker/cli-plugins/docker-extension
-  feedback: Provide feedback, right in your terminal! (Docker Inc.)
-    Version:  v1.0.5
-    Path:     /Users/vuongductuan/.docker/cli-plugins/docker-feedback
-  init: Creates Docker-related starter files for your project (Docker Inc.)
-    Version:  v1.4.0
-    Path:     /Users/vuongductuan/.docker/cli-plugins/docker-init
-  sbom: View the packaged-based Software Bill Of Materials (SBOM) for an image (Anchore Inc.)
-    Version:  0.6.0
-    Path:     /Users/vuongductuan/.docker/cli-plugins/docker-sbom
-  scout: Docker Scout (Docker Inc.)
-    Version:  v1.15.0
-    Path:     /Users/vuongductuan/.docker/cli-plugins/docker-scout
-
-Server:
-ERROR: Cannot connect to the Docker daemon at unix:///Users/vuongductuan/.docker/run/docker.sock. Is the docker daemon running?
-errors pretty printing info
-[FAIL] docker daemon ready
-docker: Cannot connect to the Docker daemon at unix:///Users/vuongductuan/.docker/run/docker.sock. Is the docker daemon running?.
-See 'docker run --help'.
-[FAIL] hello-world container
-\n== Image checks ==
-[WARN] missing image registry:2; run scripts/pull_all.sh
-[WARN] missing image python:3.11-slim; run scripts/pull_all.sh
-[WARN] missing image node:20-alpine; run scripts/pull_all.sh
-[WARN] missing image postgres:15-alpine; run scripts/pull_all.sh
-[WARN] missing image rabbitmq:3-management; run scripts/pull_all.sh
-[WARN] missing image eclipse-mosquitto:2; run scripts/pull_all.sh
-[WARN] missing image nginx:alpine; run scripts/pull_all.sh
-[WARN] missing image traefik:v3.1; run scripts/pull_all.sh
-[WARN] missing image prom/prometheus:v2.54.1; run scripts/pull_all.sh
-[WARN] missing image grafana/grafana:11.2.0; run scripts/pull_all.sh
-[WARN] missing image redis:7-alpine; run scripts/pull_all.sh
-[WARN] missing image swaggerapi/swagger-ui:v5.17.14; run scripts/pull_all.sh
-[WARN] missing image hello-world:latest; run scripts/pull_all.sh
-[WARN] missing image ultralytics/ultralytics:latest-cpu; run scripts/pull_all.sh
-\n== Ultralytics check ==
-[WARN] skip ultralytics check because image is missing
-\n== Compose mini-stack check ==
-Cannot connect to the Docker daemon at unix:///Users/vuongductuan/.docker/run/docker.sock. Is the docker daemon running?
-[WARN] compose mini-stack could not start; maybe ports 8081/5000 are in use
-\nALL CHECKS FINISHED. Read evidence/buoi-01/smoke-test-result.txt for details.
-== Tool checks ==
-[PASS] git installed
-[PASS] docker installed
-[PASS] node installed
-[PASS] python installed
-\n== Docker checks ==
-Docker version 27.3.1, build ce12230
-[PASS] docker CLI
-Docker Compose version v2.30.3-desktop.1
-[PASS] docker compose v2
-Client:
- Version:    27.3.1
- Context:    desktop-linux
  Debug Mode: true
  Plugins:
   ai: Ask Gordon - Docker Agent (Docker Inc.)
@@ -125,11 +48,11 @@ Client:
     Path:     /Users/vuongductuan/.docker/cli-plugins/docker-scout
 
 Server:
- Containers: 7
+ Containers: 3
   Running: 3
   Paused: 0
-  Stopped: 4
- Images: 26
+  Stopped: 0
+ Images: 4
  Server Version: 27.3.1
  Storage Driver: overlayfs
   driver-type: io.containerd.snapshotter.v1
@@ -158,12 +81,12 @@ Server:
  CPUs: 8
  Total Memory: 7.654GiB
  Name: docker-desktop
- ID: 75ed8748-1f3c-4e19-8cc3-7b09bf3f570e
+ ID: 53c9674b-7f8d-4b07-ae5f-19075c3fb9e7
  Docker Root Dir: /var/lib/docker
  Debug Mode: false
-  File Descriptors: 67
-  Goroutines: 96
-  System Time: 2026-05-06T12:38:29.055867512Z
+  File Descriptors: 74
+  Goroutines: 98
+  System Time: 2026-05-06T14:03:57.263048178Z
   EventsListeners: 15
  HTTP Proxy: http.docker.internal:3128
  HTTPS Proxy: http.docker.internal:3128
@@ -178,16 +101,68 @@ Server:
 
 WARNING: daemon is not using the default seccomp profile
 [PASS] docker daemon ready
-docker: Error response from daemon: rpc error: code = Unknown desc = blob sha256:f9078146db2e05e794366b1bfe584a14ea6317f44027d10ef7dad65279026885 expected at /var/lib/desktop-containerd/daemon/io.containerd.content.v1.content/blobs/sha256/f9078146db2e05e794366b1bfe584a14ea6317f44027d10ef7dad65279026885: open /var/lib/desktop-containerd/daemon/io.containerd.content.v1.content/blobs/sha256/f9078146db2e05e794366b1bfe584a14ea6317f44027d10ef7dad65279026885: input/output error.
-See 'docker run --help'.
-[FAIL] hello-world container
+
+Hello from Docker!
+This message shows that your installation appears to be working correctly.
+
+To generate this message, Docker took the following steps:
+ 1. The Docker client contacted the Docker daemon.
+ 2. The Docker daemon pulled the "hello-world" image from the Docker Hub.
+    (arm64v8)
+ 3. The Docker daemon created a new container from that image which runs the
+    executable that produces the output you are currently reading.
+ 4. The Docker daemon streamed that output to the Docker client, which sent it
+    to your terminal.
+
+To try something more ambitious, you can run an Ubuntu container with:
+ $ docker run -it ubuntu bash
+
+Share images, automate workflows, and more with a free Docker ID:
+ https://hub.docker.com/
+
+For more examples and ideas, visit:
+ https://docs.docker.com/get-started/
+
+[PASS] hello-world container
 \n== Image checks ==
-[WARN] missing image registry:2; run scripts/pull_all.sh
+[PASS] image registry:2
 [WARN] missing image python:3.11-slim; run scripts/pull_all.sh
 [WARN] missing image node:20-alpine; run scripts/pull_all.sh
 [WARN] missing image postgres:15-alpine; run scripts/pull_all.sh
 [WARN] missing image rabbitmq:3-management; run scripts/pull_all.sh
 [WARN] missing image eclipse-mosquitto:2; run scripts/pull_all.sh
-[WARN] missing image nginx:alpine; run scripts/pull_all.sh
+[PASS] image nginx:alpine
 [WARN] missing image traefik:v3.1; run scripts/pull_all.sh
+[WARN] missing image prom/prometheus:v2.54.1; run scripts/pull_all.sh
+[WARN] missing image grafana/grafana:11.2.0; run scripts/pull_all.sh
+[PASS] image redis:7-alpine
+[WARN] missing image swaggerapi/swagger-ui:v5.17.14; run scripts/pull_all.sh
+[PASS] image hello-world:latest
+[WARN] missing image ultralytics/ultralytics:latest-cpu; run scripts/pull_all.sh
 \n== Ultralytics check ==
+[WARN] skip ultralytics check because image is missing
+\n== Compose mini-stack check ==
+ Container compose-registry-1  Running
+ Container compose-redis-1  Running
+ Container compose-nginx-1  Running
+NAME                 IMAGE            COMMAND                  SERVICE    CREATED          STATUS                    PORTS
+compose-nginx-1      nginx:alpine     "/docker-entrypoint.…"   nginx      17 seconds ago   Up 16 seconds (healthy)   0.0.0.0:8081->80/tcp
+compose-redis-1      redis:7-alpine   "docker-entrypoint.s…"   redis      17 seconds ago   Up 16 seconds (healthy)   6379/tcp
+compose-registry-1   registry:2       "/entrypoint.sh /etc…"   registry   17 seconds ago   Up 16 seconds             0.0.0.0:5001->5000/tcp
+[PASS] nginx reachable on localhost:8081
+[PASS] local registry reachable on localhost:5001
+ Container compose-redis-1  Stopping
+ Container compose-nginx-1  Stopping
+ Container compose-registry-1  Stopping
+ Container compose-registry-1  Stopped
+ Container compose-registry-1  Removing
+ Container compose-registry-1  Removed
+ Container compose-nginx-1  Stopped
+ Container compose-nginx-1  Removing
+ Container compose-nginx-1  Removed
+ Container compose-redis-1  Stopped
+ Container compose-redis-1  Removing
+ Container compose-redis-1  Removed
+ Network compose_default  Removing
+ Network compose_default  Removed
+\nALL CHECKS FINISHED. Read evidence/buoi-01/smoke-test-result.txt for details.
